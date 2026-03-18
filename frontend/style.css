@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#result {
+  background: #f4f4f4;
+  padding: 10px;
+}

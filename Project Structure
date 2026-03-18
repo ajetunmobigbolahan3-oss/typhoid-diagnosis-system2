@@ -1,0 +1,21 @@
+typhoid-system/
+│
+├── backend/
+│   ├── controllers/
+│   │   └── diagnosisController.js
+│   ├── routes/
+│   │   └── diagnosisRoutes.js
+│   ├── services/
+│   │   └── diagnosisService.js
+│   ├── utils/
+│   │   └── severityClassifier.js
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+├── README.md
+└── .gitignore

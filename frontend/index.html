@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typhoid Diagnosis System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Typhoid Diagnosis System</h2>
+
+<form id="form">
+  <label>Fever Duration (days):</label>
+  <input type="number" id="feverDays" required />
+
+  <label>Symptoms:</label>
+  <select id="symptoms" multiple>
+    <option value="abdominal pain">Abdominal Pain</option>
+    <option value="weakness">Weakness</option>
+    <option value="confusion">Confusion</option>
+    <option value="bleeding">Bleeding</option>
+  </select>
+
+  <button type="submit">Diagnose</button>
+</form>
+
+<div id="result"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
